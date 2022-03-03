@@ -1,0 +1,80 @@
+/* ====================  GLOBAL ============================= */
+
+  .btn-primary {
+    color: #fff;
+    background-color: #1e2633;
+    border-color: #2ab97736;
+    margin-top: .5rem;
+  }
+
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #dde1e6;
+    overflow:scroll;
+  }
+
+  .sector-table {
+    border-radius: 5px;
+    background: #19222b;
+    padding: 0%;
+    font-size: 10px;
+  }
+
+  tbody{
+    background: #1e2633;
+    border-radius: 5px;
+  }
+
+  .table td,
+  .table th {
+    vertical-align: top;
+    border-top: 1px solid #dee2e600;
+  }
+
+
+  .green {
+    color: #2ab977;
+  }
+
+  .red {
+    color: #e1014a;
+  }
+
+  a {
+    color: #dae0e5;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  #symbol-space {
+    margin-left: 4%;
+    columns: 20px;
+    display: flex;
+  }
+
+
+  .fixed-top {
+    background: #040506;
+    margin-bottom: 2rem;
+  }
+
+  body,html {
+    color: #e3d4e6;
+    height: 100%;
+    background: linear-gradient(-45deg, #101821, #040506, #101821, #040506);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
